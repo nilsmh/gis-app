@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gis-app/static/css/main.073c9b0a.css",
+    "main.js": "/gis-app/static/js/main.d1342d83.js",
+    "static/js/787.0848950a.chunk.js": "/gis-app/static/js/787.0848950a.chunk.js",
+    "index.html": "/gis-app/index.html",
+    "main.073c9b0a.css.map": "/gis-app/static/css/main.073c9b0a.css.map",
+    "main.d1342d83.js.map": "/gis-app/static/js/main.d1342d83.js.map",
+    "787.0848950a.chunk.js.map": "/gis-app/static/js/787.0848950a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.d1342d83.js"
+  ]
+}
