@@ -1,6 +1,6 @@
 import './App.css';
 import { useRef, useState, useEffect } from 'react';
-import mapboxgl from 'mapbox-gl';
+import mapboxgl from '!mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import Sidebar from './components/Sidebar';
 
