@@ -1,11 +1,11 @@
 import './App.css';
 import { useRef, useState, useEffect } from 'react';
-import mapboxgl from 'mapbox-gl';
+import mapboxgl from '!mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import Sidebar from './components/Sidebar';
 
 mapboxgl.accessToken =
-  'pk.eyJ1Ijoibmlsc21oIiwiYSI6ImNsZWoyb3hjNjA0MGIzc25oOTZ6ZHc0amMifQ.cCn5haQzP7L6t7UepWdNFg';
+  'pk.eyJ1Ijoibmlsc21oIiwiYSI6ImNsZWxsd3cwdjB3ZHkzb3FucmZ6cngyMmYifQ.2pFWmR3p5Xht28U7KQZ1TA';
 
 function App() {
   const mapContainer = useRef(null);
@@ -29,7 +29,7 @@ function App() {
     };
 
     !map && attachMap(setMap, mapContainer);
-  }, [map, lat, lng, zoom]);
+  }, [map, lng, lat, zoom]);
 
   return (
     <div
