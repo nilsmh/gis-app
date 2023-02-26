@@ -1,5 +1,5 @@
-module.exports = {
-  rules: {
-    'import/no-webpack-loader-syntax': 'off',
-  },
-};
+// module.exports = {
+//   rules: {
+//     'import/no-webpack-loader-syntax': 'off',
+//   },
+// };
