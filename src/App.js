@@ -29,7 +29,7 @@ function App() {
     };
 
     !map && attachMap(setMap, mapContainer);
-  }, [map, lng, lat, zoom]);
+  }, [map]);
 
   return (
     <div
